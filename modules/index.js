@@ -31,7 +31,8 @@ import en from 'react-intl/locale-data/en';
 import es from 'react-intl/locale-data/es';
 import de from 'react-intl/locale-data/de';
 import fr from 'react-intl/locale-data/fr';
-addLocaleData([...en, ...es, ...de, ...fr]);
+import hu from 'react-intl/locale-data/hu';
+addLocaleData([...en, ...es, ...de, ...fr, ...hu]);
 const messages = require('./locale/'+process.env.NODE_LOCALE+'.json');
 
 // Load in the base CSS
