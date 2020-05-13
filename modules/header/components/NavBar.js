@@ -91,12 +91,15 @@ class NavBar extends React.Component {
                 <GroceryListMenuItem data={ this.props.lists }/> : null
             )}
           </Nav>
-          {( false ? <Nav pullRight>
-            {( this.props.user.id  ?
-                <AccountMenuMenuItem authActions={ this.props.authActions }/> :
-                <AccountLoginMenuItem/>
-            )} : null
-          </Nav>
+          {( 
+            false ?
+              <Nav pullRight>
+                {( this.props.user.id  ?
+                    <AccountMenuMenuItem authActions={ this.props.authActions }/> :
+                    <AccountLoginMenuItem/>
+                )}
+              </Nav>
+            : null
           )}
         </Navbar.Collapse>
       </Navbar>
