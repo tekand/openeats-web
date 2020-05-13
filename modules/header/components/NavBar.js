@@ -108,5 +108,6 @@ const mapDispatchToProps = (dispatch, props) => ({
 });
 
 export default injectIntl(connect(
+  null,
   mapDispatchToProps
 )(NavBar));
