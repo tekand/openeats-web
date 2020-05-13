@@ -25,7 +25,7 @@ class NavBar extends React.Component {
       this.props.listActions.load();
     }
     else {
-      AuthActions.getToken("openeats", "openeats")
+      this.props.authActions.getToken("openeats", "openeats");
     }
   }
 
@@ -101,4 +101,10 @@ class NavBar extends React.Component {
   }
 }
 
-export default injectIntl(NavBar);
+const mapDispatchToProps = (dispatch, props) => ({
+  authActions: bindActionCreators(AuthActions, dispatch),
+});
+
+export default injectIntl(connect(
+  mapDispatchToProps
+)(NavBar));
