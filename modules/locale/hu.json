@@ -26,7 +26,7 @@
   "nav.brand": "Anyám Főzte",
   "nav.news": "Hírek",
   "nav.recipes": "Receptek",
-  "nav.create_recipe": "Új",
+  "nav.create_recipe": "Új recept",
   "nav.import": "Importálás",
   "nav.grocery_list": "Bevásárlólista",
   "nav.login.title": "Bejelentkezés",
@@ -167,7 +167,7 @@
   "recipe.ingredients": "Hozzávalók",
   "recipe.directions": "Lépések",
   "recipe.source": "Forrás",
-  "recipe.created_by": "Létrehozta",
+  "recipe.created_by": "",
   "recipe.last_updated": "Utolsó módosítás",
   "recipe.edit_recipe": "Recept szerkesztése",
   "recipe.confirm_delete": "Biztos, hogy törölni akarod ezt a receptet?"

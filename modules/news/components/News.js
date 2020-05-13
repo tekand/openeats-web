@@ -60,7 +60,7 @@ class News extends React.Component {
             }
           </div>
           <div className="row">
-            <h3 className="page-header">Recommended Recipes</h3>
+            <h3 className="page-header">Ajánlott receptek</h3>
             <MiniBrowse format="col-xs-12 col-sm-6 col-md-3" qs="?limit=4" />
           </div>
           <div className="row home-buttons">

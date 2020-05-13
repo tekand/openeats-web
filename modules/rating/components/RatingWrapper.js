@@ -9,7 +9,7 @@ require("./../css/recipe-rating-wrapper.scss");
 const RatingWrapper = ({ recipeSlug, user, data, ratingActions }) => (
   <div className="panel rating-panel">
     <div className="panel-heading">
-      <h3>Comments</h3>
+      <h3>Megjegyzések</h3>
     </div>
     <div className="panel-body">
       <RatingComments data={ data } userId={ user.id } {...ratingActions} />
