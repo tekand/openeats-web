@@ -3,8 +3,12 @@ import PropTypes from 'prop-types'
 
 import { Checkbox } from '../../common/components/FormComponents'
 
+import formatQuantity from '../utilts/formatQuantity'
+
+
 const Ingredients = ({ data, check }) => {
   let ingredients = data.map((ingredient, i) => {
+    ingredient.quantity = formatQuantity(1, 1, ingredient.numerator, ingredient.denominator);
     return (
       <li className="ingredient" key={ i }>
         <Checkbox
