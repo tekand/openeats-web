@@ -8,7 +8,7 @@ import formatQuantity from '../utilts/formatQuantity'
 
 const Ingredients = ({ data, check }) => {
   let ingredients = data.map((ingredient, i) => {
-    ingredient.quantity = formatQuantity(1, 1, ingredient.numerator, ingredient.denominator);
+    let quantity = formatQuantity(1, 1, ingredient.numerator, ingredient.denominator);
     return (
       <li className="ingredient" key={ i }>
         <Checkbox
@@ -16,8 +16,8 @@ const Ingredients = ({ data, check }) => {
           checked={ ingredient.checked ? ingredient.checked : false }
           change={ check }
         />
-        { (ingredient.quantity !== '0')
-            ? <span className="quantity">{ ingredient.quantity } </span>
+        { (quantity !== '0')
+            ? <span className="quantity">{ quantity } </span>
             : null
         }
         { (ingredient.measurement)
