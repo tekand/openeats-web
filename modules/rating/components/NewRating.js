@@ -38,32 +38,32 @@ class RecipeForm extends React.Component {
     const { formatMessage } = this.props.intl;
     const messages = defineMessages({
       name_label: {
-        id: 'newRating.create.name_label',
+        id: 'recipe.create.name_label',
         description: 'Recipe name label',
         defaultMessage: 'Recipe name',
       },
       rating_placeholder: {
-        id: 'newRating.create.rating_placeholder',
+        id: 'recipe.create.rating_placeholder',
         description: 'Rating placeholder',
         defaultMessage: 'Rate this recipe from 0 to 5',
       },
       rating_label: {
-        id: 'newRating.create.rating_label',
+        id: 'recipe.create.rating_label',
         description: 'Rating label',
         defaultMessage: 'Rating',
       },
       rating_comment_placeholder: {
-        id: 'newRating.create.rating_comment_placeholder',
+        id: 'recipe.create.rating_comment_placeholder',
         description: 'Rating placeholder',
         defaultMessage: 'Leave a comment!',
       },
       rating_comment_label: {
-        id: 'newRating.create.rating_comment_label',
+        id: 'recipe.create.rating_comment_label',
         description: 'Rating label',
         defaultMessage: 'Comments',
       },
       submit: {
-        id: 'newRating.create.submit',
+        id: 'recipe.create.rating_submit',
         description: 'Submit recipe button',
         defaultMessage: 'Comment',
       }
