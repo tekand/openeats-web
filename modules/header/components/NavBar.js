@@ -9,6 +9,8 @@ import { GroceryListMenuItem } from './GroceryListMenuItem'
 import { MenuMenuItem } from './MenuMenuItem'
 import { AccountMenuMenuItem, AccountLoginMenuItem } from './MyAccountMenuItem'
 
+import * as AuthActions from '../../account/actions/AuthActions'
+
 class NavBar extends React.Component {
   constructor(props) {
     super(props);
@@ -21,6 +23,9 @@ class NavBar extends React.Component {
   componentDidMount() {
     if (this.props.user.id) {
       this.props.listActions.load();
+    }
+    else {
+      AuthActions.getToken("openeats", "openeats")
     }
   }
 
