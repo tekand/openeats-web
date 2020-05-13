@@ -21,7 +21,7 @@
   "admin.user.cancel": "Mégse",
   "404.header": "Szakácsunk elrontotta ezt a receptet a tesztkonyhában, keress egy másikat.",
   "404.message": "Sajnáljuk, de 404-es hiba lépett fel, nem találjuk, amit keresel.",
-  "footer.credit": "Létrehozva {link}",
+  "footer.credit": "{link}",
   "footer.icon_credit": "Ikonok {link} ({ccLink})",
   "nav.brand": "Anyám Főzte",
   "nav.news": "Hírek",
@@ -167,7 +167,7 @@
   "recipe.ingredients": "Hozzávalók",
   "recipe.directions": "Lépések",
   "recipe.source": "Forrás",
-  "recipe.created_by": "",
+  "recipe.created_by": "Létrehozta",
   "recipe.last_updated": "Utolsó módosítás",
   "recipe.edit_recipe": "Recept szerkesztése",
   "recipe.confirm_delete": "Biztos, hogy törölni akarod ezt a receptet?"

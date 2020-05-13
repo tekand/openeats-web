@@ -1,5 +1,5 @@
 export default title => {
-  const nextTitle = title ? title + ' | Open Eats' : 'Open Eats';
+  const nextTitle = title ? title + ' | Anyám Főzte' : 'Anyám Főzte';
   if (nextTitle !== document.title) {
     document.title = nextTitle;
   }
