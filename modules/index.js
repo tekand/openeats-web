@@ -50,8 +50,7 @@ const main = (
               <Header />
               { process.env.NODE_ENV === 'demo' ? <Demo /> : '' }
               <Switch>
-                <Route exact path='/' component={ News } />
-                <Route path='/news' component={ News } />
+                <Route exact path='/' component={ Browse } />
                 <Route path='/login' component={ Login } />
                 <Route path='/browse' component={ Browse } />
 
