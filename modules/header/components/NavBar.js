@@ -74,13 +74,13 @@ class NavBar extends React.Component {
             <NavItem onClick={ this.props.randomRecipeActions.randomRecipe }>
               {formatMessage(messages.randomRecipe)}
             </NavItem>
-            {( this.props.user.id ?
+            {( false && this.props.user.id ?
                 <MenuMenuItem/> : null
             )}
             {( this.props.user.id  ?
                 <CreateRecipeMenuItem/> : null
             )}
-            {( this.props.user.id ?
+            {( false && this.props.user.id ?
                 <GroceryListMenuItem data={ this.props.lists }/> : null
             )}
           </Nav>
