@@ -61,7 +61,7 @@ class NavBar extends React.Component {
           <Navbar.Brand>
             <Link to="/">
               <Image alt="Brand" src="/images/chef.png" responsive={ true } />
-              <Span>{formatMessage(messages.brand)}</Span>
+              <span>{formatMessage(messages.brand)}</span>
             </Link>
           </Navbar.Brand>
           <Navbar.Toggle />
