@@ -1,4 +1,6 @@
 import React from 'react'
+import { bindActionCreators } from 'redux'
+import { connect } from 'react-redux'
 import { Link } from 'react-router-dom'
 import { injectIntl, defineMessages } from 'react-intl';
 import { Image, Navbar, Nav, NavItem } from 'react-bootstrap'
