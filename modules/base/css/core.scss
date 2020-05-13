@@ -17,10 +17,18 @@ body {
 
 .navbar-brand {
     padding: 5px 15px;
+    width: 200px;
 }
 
 .navbar-brand img {
     height: 100%;
+    float: left;
+}
+
+.navbar-brand span {
+  display: block;
+  margin-top: 10px;
+  margin-left: 55px;
 }
 
 #content {
