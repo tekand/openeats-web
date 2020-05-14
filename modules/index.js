@@ -77,7 +77,6 @@ const main = (
 
 const entryPoint = () => {
   render(main, document.getElementById('app'));
-  // registerServiceWorker();
 };
 
 if (browserSupportsAllFeatures()) {
@@ -88,4 +87,4 @@ if (browserSupportsAllFeatures()) {
   loadPolyFills(entryPoint);
 }
 
-registerServiceWorker();
+// registerServiceWorker();
