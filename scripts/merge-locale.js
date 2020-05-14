@@ -28,7 +28,7 @@ let defaultMessages = globSync(MESSAGES_PATTERN)
   }, {});
 
 mkdirpSync(LOCALE_DIR);
-let locales = ['en', 'es', 'de']
+let locales = ['en', 'es', 'de', 'fr', 'hu']
   .forEach((locale, i) => {
     let messages = JSON.parse(fs.readFileSync(LOCALE_DIR + locale + '.json', 'utf8'));
 
